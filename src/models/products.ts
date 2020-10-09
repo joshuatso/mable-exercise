@@ -101,6 +101,7 @@ const getProducts = async () => {
             if (!findOutputProduct) {
                 outputProducts.push({
                     productId: row.productId,
+                    productName: row.productName,
                     orderMin: row.orderMin,
                     description: row.description,
                     variants: [{
